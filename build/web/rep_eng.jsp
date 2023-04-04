@@ -124,7 +124,12 @@
                                                             %>
                                                         </select><br><br>
                                                         <button type="submit" class="rounded-md bg-stone-600 py-2 px-3 text-sm font-semibold text-white shadow-sm hover:bg-stone-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-stone-600" >Asignar</button>
-                                                      </form>
+                                                      </form><br><br><br><br>
+                                                         <div>
+                                                                <button type="button" value="Regresar">
+                                                                <a href="rep_vya.jsp?id_case=<%= ids%>" class="rounded-md bg-stone-600 py-2 px-3 text-sm font-semibold text-white shadow-sm hover:bg-stone-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-stone-600">Regresar</a>
+                                                                </button>  
+                                                        </div>
                                                     </td>
                                                     <% 
                                                                 rs.close();
